@@ -162,7 +162,7 @@ def send_email(subject: str, body: str, dry_run: bool) -> bool:
     message["From"] = user
     message["To"] = to_addr
     message["Subject"] = subject
-    message.set_content(body)
+    message.set_content(body, charset="utf-8")
 
     try:
         with smtplib.SMTP(host, port) as server:
@@ -192,7 +192,7 @@ def main() -> int:
     parser.add_argument(
         "--big-threshold-gb",
         type=float,
-        default=float(os.getenv("BIG_DIR_THRESHOLD_GB", "10")),
+        default=float(os.getenv("BIG_DIR_THRESHOLD_GB", "5")),
         help="Threshold in GB for marking a directory as high usage in the email.",
     )
     parser.add_argument(

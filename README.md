@@ -1,6 +1,8 @@
 # Disk Analyzer
 
-**🏅 Certification:** [View Ethical Hacker Update (2026) Certificate](assets/EthicalHackerUpdate20260421-31-u3e1s5.pdf)
+**🏅 Certification:** 
+
+![Ethical Hacker Certificate](assets/certificate.png)
 
 ## 1. Project Description & Problem it Solves
 **Disk Analyzer** is a lightweight, containerized storage monitoring agent. It addresses the common problem of unmonitored disk space bloat on personal computers and servers. Users often accumulate large, forgotten files or development environments that consume massive amounts of disk space. 

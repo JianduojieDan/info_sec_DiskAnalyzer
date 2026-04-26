@@ -10,6 +10,9 @@
 This utility autonomously scans specified local directories, identifies the largest storage consumers, and flags any directories exceeding a defined "High Usage" threshold (e.g., 5GB). It solves the lack of visibility into disk consumption by providing daily summary alerts via Email and seamlessly pushing the parsed data to a centralized **Multi-Pod Security Command Center** for real-time dashboard visualization.
 
 ## 2. Architecture Overview
+
+![System Architecture Logic Chart](assets/logic_chart.png)
+
 The system follows a decoupled, microservice-inspired architecture based on the Principle of Least Privilege:
 *   **The Agent (Disk Analyzer):** A standalone Python script running in an ephemeral Docker container (`--rm`). It mounts the host machine's directories as **Read-Only (`:ro`)** to guarantee absolute safety against accidental data deletion.
 *   **Email Notification:** Uses the native `smtplib` over TLS to dispatch daily text-based summary reports to the user's Gmail.

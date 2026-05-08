@@ -4,3 +4,5 @@ __pycache__/
 .env
 # Ignore macOS executable scripts (contains passwords)
 *.command
+.DS_Store
+*.m4v

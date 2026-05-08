@@ -66,7 +66,7 @@ docker run --rm \
 *   **Slides:** [Link to Presentation Slides (PDF/PPTX) - TBA]
 
 ## 7. Demo Video
-*   **Video Link:** https://youtu.be/Bmo_XCDfUzc
+*   **Video Link:** [YouTube Demo](https://youtu.be/Bmo_XCDfUzc)
 
 ## 8. Faculty Feedback
 *   **Feedback Video:** [YouTube / Google Drive Link - TBA]

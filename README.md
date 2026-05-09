@@ -68,5 +68,6 @@ docker run --rm \
 ## 7. Demo Video
 *   **Video Link:** [YouTube Demo](https://youtu.be/Bmo_XCDfUzc)
 
+
 ## 8. Faculty Feedback
-*   **Feedback Video:** [YouTube / Google Drive Link - TBA]
+*   **Feedback Video:** [Google Drive Link](https://drive.google.com/file/d/1w6VY_qiMHMO6I6kx8jE47GzD5OlchwEq/view?usp=share_link)

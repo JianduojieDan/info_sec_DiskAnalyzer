@@ -63,7 +63,7 @@ docker run --rm \
 ---
 
 ## 6. Pitch Presentation
-*   **Slides:** [Link to Presentation Slides (PDF/PPTX) - TBA]
+*   **Slides (PDF):** [pdfjoiner-2.pdf](pdfjoiner-2.pdf)
 
 ## 7. Demo Video
 *   **Video Link:** [YouTube Demo](https://youtu.be/Bmo_XCDfUzc)
